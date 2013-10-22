@@ -33,16 +33,16 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="nunit.mocks">
-      <HintPath>..\packages\NUnit\lib\nunit.mocks.dll</HintPath>
+      <HintPath>..\packages\NUnit.Mocks.2.6.3\lib\nunit.mocks.dll</HintPath>
     </Reference>
     <Reference Include="pnunit.framework">
-      <HintPath>..\packages\NUnit\lib\pnunit.framework.dll</HintPath>
+      <HintPath>..\packages\pNUnit.2.6.3\lib\pnunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Mocks">
-      <HintPath>..\packages\RhinoMocks\lib\net\Rhino.Mocks.dll</HintPath>
+      <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -84,7 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ripple.dependencies.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

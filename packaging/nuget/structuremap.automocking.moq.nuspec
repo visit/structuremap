@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>structuremap.automocking.moq</id>
+    <id>visit.structuremap.automocking.moq</id>
     <version>3.0.0</version>
     <authors>Jeremy D. Miller, Joshua Flanagan</authors>
     <owners>Jeremy D. Miller</owners>
@@ -11,8 +11,8 @@
     <description>AutoMocker with StructureMap for Moq</description>
     <language>en-US</language>
     <dependencies>
-      <dependency id="StructureMap" version="3.0.0" />
-      <dependency id="Moq" version="4.0.10827" />
+      <dependency id="Visit.StructureMap"/>
+      <dependency id="Moq"/>
     </dependencies>
   </metadata>
   <files>

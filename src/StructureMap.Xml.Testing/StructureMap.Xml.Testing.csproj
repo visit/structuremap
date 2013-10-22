@@ -33,13 +33,13 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="nunit.mocks">
-      <HintPath>..\packages\NUnit\lib\nunit.mocks.dll</HintPath>
+      <HintPath>..\packages\NUnit.Mocks.2.6.3\lib\nunit.mocks.dll</HintPath>
     </Reference>
     <Reference Include="pnunit.framework">
-      <HintPath>..\packages\NUnit\lib\pnunit.framework.dll</HintPath>
+      <HintPath>..\packages\pNUnit.2.6.3\lib\pnunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

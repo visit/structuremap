@@ -39,9 +39,6 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\CommonAssemblyInfo.cs">
-      <Link>CommonAssemblyInfo.cs</Link>
-    </Compile>
     <Compile Include="ConfigurationExtensions.cs" />
     <Compile Include="ConfigurationParser.cs" />
     <Compile Include="DictionaryReader.cs" />
